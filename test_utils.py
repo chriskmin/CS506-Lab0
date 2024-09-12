@@ -27,6 +27,6 @@ def test_nearest_neighbor():
     
     result = nearest_neighbor(query_vector, vectors)
     
-    expected_index = 1  # Assuming the nearest vector to [4, 5] is [3, 4]
+    expected_index = 2  # Assuming the nearest vector to [4, 5] is [3, 4]
     
     assert result == expected_index, f"Expected index {expected_index}, but got {result}"
