@@ -17,6 +17,7 @@ def test_cosine_similarity():
     result = cosine_similarity(vector1, vector2)
     
     expected_result = 32 / (np.linalg.norm(vector1) * np.linalg.norm(vector2))
+
     
     assert np.isclose(result, expected_result), f"Expected {expected_result}, but got {result}"
 
